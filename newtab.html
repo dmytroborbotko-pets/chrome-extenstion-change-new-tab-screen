@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+    <div class="search-container">
+        <form id="google-search" action="https://www.google.com/search" method="GET" target="_self">
+            <input type="text" name="g" placeholder="Search Google" required>
+        </form>
+        <form id="perplexity-search" action="https://www.perplexity.ai/search" method="GET" target="_self">
+            <input type="text" name="q" placeholder="Search Perplexity" required>
+        </form>
+    </div>
+    <div class="links-container">
+        <ul class="list-links">
+            <li><a href="https://mail.google.com/" target="_self">Gmail</a></li>
+            <li><a href="https://calendar.google.com/calendar" target="_self">Google Calendar</a></li>
+            <li><a href="https://drive.google.com/" target="_self">Google Drive</a></li>
+            <li><a href="https://sheets.google.com/" target="_self">Google Sheets</a></li>
+            <li><a href="https://www.youtube.com/" target="_self">YouTube</a></li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

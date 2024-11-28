@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #313030;
+}
+.container {
+    position: relative;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+form {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    gap: 4px
+}
+
+input[type=text] {
+    padding: 10px;
+    flex: 3;
+}
+
+input[type=submit] {
+    padding: 10px;
+    flex: 1
+}
+
+.links-container {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+.links-container h2 {
+    margin-bottom: 10px;
+}
+
+.links-container ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.links-container li {
+    margin: 5px 0;
+}
+
+.links-container a {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(202, 202, 242);
+}
